@@ -1,475 +1,525 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="blog satt owner satria">
-    <meta name="author" content="satria">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Medigo Red, free responsive template</title>
+    <meta name="keywords" content="">
+	<meta name="description" content="">
+    <meta name="author" content="templatemo">
+    <!-- 
+	Medigo Template
+	http://www.templatemo.com/preview/templatemo_460_medigo
+    -->
 
-    <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
-	<meta property="og:site_name" content="" /> <!-- website name -->
-	<meta property="og:site" content="" /> <!-- website link -->
-	<meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
-	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
-	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
-	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
-	<meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
+	<!-- Google Fonts -->
+	<link href="http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700itali" rel="stylesheet">
+	<link href="http://fonts.googleapis.com/css?family=Raleway:400,900,800,700,500,200,100,600" rel="stylesheet">
 
-    <!-- Webpage Title -->
-    <title>Satt Blog</title>
-    
-    <!-- Styles -->
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/fontawesome-all.min.css" rel="stylesheet">
-    <link href="css/swiper.css" rel="stylesheet">
-	<link href="css/styles.css" rel="stylesheet">
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="bootstrap/bootstrap.css">
+	<link rel="stylesheet" href="css/misc.css">
+	<link rel="stylesheet" href="css/red-scheme.css">
 	
-	<!-- Favicon  -->
-    <link rel="icon" href="images/favicon.png">
+	<!-- JavaScripts -->
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<script src="js/jquery-migrate-1.2.1.min.js"></script>
+
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+
 </head>
 <body>
-    
-    <!-- Navigation -->
-    <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-light" aria-label="Main navigation">
-        <div class="container">
+	<div class="responsive_menu">
+        <ul class="main_menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Portfolio</a>
+            	<ul>
+            		<li><a href="portfolio.html">Portfolio Grid</a></li>
+            		<li><a href="project-image.html">Project Image</a></li>
+            		<li><a href="project-slideshow.html">Project Slideshow</a></li>
+            	</ul>
+            </li>
+            <li><a href="#">Blog</a>
+				<ul>
+					<li><a href="blog.html">Blog Standard</a></li>
+					<li><a href="blog-single.html">Blog Single</a></li>
+                    <li><a href="#">visit templatemo</a></li>
+				</ul>
+            </li>
+            <li><a href="archives.html">Archives</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul> <!-- /.main_menu -->
+    </div> <!-- /.responsive_menu -->
 
-            <!-- Image Logo -->
-            <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.png" alt="alternative"></a> 
+	<header class="site-header clearfix">
+		<div class="container">
 
-            <!-- Text Logo - Use this if you don't have a graphic logo -->
-            <!-- <a class="navbar-brand logo-text" href="index.html">Yavin</a> -->
+			<div class="row">
 
-            <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+				<div class="col-md-12">
 
-            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
-                <ul class="navbar-nav ms-auto navbar-nav-scroll">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#header">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Drop</a>
-                        <ul class="dropdown-menu" aria-labelledby="dropdown01">
-                            <li><a class="dropdown-item" href="eror.html">Article Details</a></li>
-                            <li><div class="dropdown-divider"></div></li>
-                            <li><a class="dropdown-item" href="eror.html">Terms Conditions</a></li>
-                            <li><div class="dropdown-divider"></div></li>
-                            <li><a class="dropdown-item" href="eror.html">Privacy Policy</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <span class="nav-item">
-                    <a class="btn-outline-sm" href="#contact">Contact Me</a>
-                </span>
-            </div> <!-- end of navbar-collapse -->
-        </div> <!-- end of container -->
-    </nav> <!-- end of navbar -->
-    <!-- end of navigation -->
+					<div class="pull-left logo">
+						<a href="index.html">
+							<img src="images/logo.png" alt="Medigo by templatemo">
+						</a>
+					</div>	<!-- /.logo -->
 
-      
-    <!-- Header -->
-    <header id="header" class="header">
-        <img class="decoration-star" src="images/decoration-star.svg" alt="alternative">
-        <img class="decoration-star-2" src="images/decoration-star.svg" alt="alternative">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7 col-xl-5">
-                    <div class="text-container">
-                        <h1 class="h1-large">halo!!</h1>
-                        <p class="p-large">Selamat datang di web pribadi saya. Di dalam web ini berisi tentang sedikit informasi saya dan navigasi beberapa website dan media sosial saya, Selamat datang!</p>
-                        <a class="btn-solid-lg" href="#details">More details</a>
-                        <a class="btn-outline-lg" href="#contact">Contact Me</a>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-                <div class="col-lg-5 col-xl-7">
-                    <div class="image-container">
-                        <img class="img-fluid" src="images/header.png" alt="alternative">
-                    </div> <!-- end of image-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </header> <!-- end of header -->
-    <!-- end of header -->
+					<div class="main-navigation pull-right">
 
+						<nav class="main-nav visible-md visible-lg">
+							<ul class="sf-menu">
+								<li class="active"><a href="index.html">Home</a></li>
+					            <li><a href="#">Portfolio</a>
+					            	<ul>
+					            		<li><a href="portfolio.html">Portfolio Grid</a></li>
+					            		<li><a href="project-image.html">Project Image</a></li>
+					            		<li><a href="project-slideshow.html">Project Slideshow</a></li>
+					            	</ul>
+					            </li>
+					            <li><a href="#">Blog</a>
+									<ul>
+										<li><a href="blog.html">Blog Standard</a></li>
+										<li><a href="blog-single.html">Blog Single</a></li>
+                                        <li><a href="#">visit templatemo</a></li>
+									</ul>
+					            </li>
+					            <li><a href="archives.html">Archives</a></li>
+					            <li><a href="contact.html">Contact</a></li>
+							</ul> <!-- /.sf-menu -->
+						</nav> <!-- /.main-nav -->
 
-    <!-- Statistics -->
-  <!--   <div class="counter">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    
-                    Counter -->
-         <!--            <div class="counter-container">
-                        <div class="counter-cell">
-                            <div data-purecounter-start="0" data-purecounter-end="231" data-purecounter-duration="3" class="purecounter">1</div>
-                            <div class="counter-info">Happy Customers</div>
-                        </div>  end of counter-cell -->
-   <!--                      <div class="counter-cell">
-                            <div data-purecounter-start="0" data-purecounter-end="385" data-purecounter-duration="1.5" class="purecounter">1</div>
-                            <div class="counter-info">Issues Solved</div>
-                        </div>  end of counter-cell -->
-     <!--                    <div class="counter-cell">
-                            <div data-purecounter-start="0" data-purecounter-end="159" data-purecounter-duration="3" class="purecounter">1</div>
-                            <div class="counter-info">Good Reviews</div>
-                        </div> end of counter-cell -->
-      <!--                   <div class="counter-cell">
-                            <div data-purecounter-start="0" data-purecounter-end="128" data-purecounter-duration="3" class="purecounter">1</div>
-                            <div class="counter-info">Case Studies</div>
-                        </div>  end of counter-cell -->
-        <!--             </div>  end of counter-container -->
-                    <!-- end of counter -->
+						<!-- This one in here is responsive menu for tablet and mobiles -->
+					    <div class="responsive-navigation visible-sm visible-xs">
+					        <a href="#nogo" class="menu-toggle-btn">
+					            <i class="fa fa-bars"></i>
+					        </a>
+					    </div> <!-- /responsive_navigation -->
 
-     <!--            </div>  end of col -->
-   <!--          </div>  end of row -->
- <!--        </div>  end of container -->
- <!--    </div>  end of counter -->
-    <!-- end of statistics -->
+					</div> <!-- /.main-navigation -->
 
+				</div> <!-- /.col-md-12 -->
 
-    <!-- Introduction -->
-   <!--  <div id="introduction" class="basic-1 bg-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-9">
-                    <h2>Creating office spaces is our passion and you can see that in our completed projects</h2>
-                    <p>Unpleasing has ask acceptance partiality alteration understood two. Worth no tiled my at house added. Married he hearing am it totally removal. Remove but suffer wanted his lively length. Moonlight two applauded conveying end direction old principle but. Are expenses distance weddings perceive</p>
-                </div>  end of col -->
-       <!--      </div>  end of row -->
-     <!--    </div>  end of container -->
-  <!--   </div>  end of basic-1 -->
-    <!-- end of introduction -->
+			</div> <!-- /.row -->
 
+		</div> <!-- /.container -->
+	</header> <!-- /.site-header -->
 
-    <!-- Details 1 -->
-    <div id="details" class="basic-2">
-        <img class="decoration-star" src="images/decoration-star.svg" alt="alternative">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-xl-5">
-                    <div class="image-container">
-                        <img class="img-fluid" src="images/details-1.png" alt="alternative">
-                    </div> <!-- end of image-container -->
-                </div> <!-- end of col -->
-                <div class="col-lg-6 col-xl-7">
-                    <div class="text-container">
-                        <h2>Apa Saja Yang Ada Di Satt Blog?</h2>
-                        <ul class="list-unstyled li-space-lg">
-                            <li class="d-flex">
-                                <i class="fas fa-square"></i>
-                                <div class="flex-grow-1">source code dari project yang dibuat</div>
-                            </li>
-                            <li class="d-flex">
-                                <i class="fas fa-square"></i>
-                                <div class="flex-grow-1">artikel mengenai informatika</div>
-                            </li>
-                            <li class="d-flex">
-                                <i class="fas fa-square"></i>
-                                <div class="flex-grow-1">tutorial, tips dan trik</div>
-                            </li>
-                            <li class="d-flex">
-                                <i class="fas fa-square"></i>
-                                <div class="flex-grow-1">dan masih banyak lagi</div>
-                            </li>
-                        </ul>
-                        <a class="btn-solid-reg" href="#projects">mulai</a>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of basic-2 -->
-    <!-- end of details 1 -->
+	<section id="homeIntro" class="parallax first-widget">
+	    <div class="parallax-overlay">
+		    <div class="container home-intro-content">
+		        <div class="row">
+		        	<div class="col-md-12">
+		        		<h2>Choose the Optimal Workspace for Your Business</h2>
+		        		<p>We asked six entrepreneurs with drastically different office strategies for their advice on<br> choosing a workspace. </p>
+		        		<a href="#" class="large-button white-color">Download Free <i class="icon-button fa fa-download"></i></a>
+		        	</div> <!-- /.col-md-12 -->
+		        </div> <!-- /.row -->
+		    </div> <!-- /.container -->
+	    </div> <!-- /.parallax-overlay -->
+	</section> <!-- /#homeIntro -->
 
+	<section class="cta clearfix">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h4 class="cta-title"><strong>Want to use Medigo?</strong> Go and download it on templatemo.com</h4>
+					<a href="#" class="main-button accent-color">Visit templatemo<i class="icon-button fa fa-arrow-right"></i></a>
+				</div> <!-- /.col-md-12 -->
+			</div> <!-- /.row -->
+		</div> <!-- /.container -->
+	</section> <!-- /.cta -->
 
-    <!-- Services -->
-    <!-- <div id="services" class="cards-1 bg-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5">
-                    <div class="text-container">
-                        <h2>Services that we offer</h2>
-                        <p>Greatly hearted has who believe. Drift allow green son walls years for blush. Sir margaret drawings repeated recurred exercise laughing may you</p>
-                        <p>Do repeated whatever to welcomed absolute no. Fat surprise although more words outlived</p>
-                        <ul class="list-unstyled li-space-lg">
-                            <li class="d-flex">
-                                <i class="fas fa-square"></i>
-                                <div class="flex-grow-1">And informed shy dissuade property. Musical by</div>
-                            </li>
-                            <li class="d-flex">
-                                <i class="fas fa-square"></i>
-                                <div class="flex-grow-1">He drawing savings an. No we stand avoid</div>
-                            </li>
-                            <li class="d-flex">
-                                <i class="fas fa-square"></i>
-                                <div class="flex-grow-1">Announcing of invita mrore wo tion principle</div>
-                            </li>
-                        </ul>
-                    </div>  end of text-container -->
-             <!--    </div>  end of col -->
-           <!--      <div class="col-lg-7">
-                    <div class="card-container">
+	<section class="light-content services">
+		<div class="container">
+			<div class="row">
 
-                         Card -->
-                  <!--       <div class="card">
-                            <div class="card-icon">
-                                <span class="fas fa-rocket"></span>
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Space analysis and planning</h5>
-                            </div>
-                        </div>
-                        end of card -->
+				<div class="col-md-4 col-sm-4">
+					<div class="service-box-wrap">
+						<div class="service-icon-wrap">
+							<i class="fa fa-umbrella fa-2x"></i>
+						</div> <!-- /.service-icon-wrap -->
+						<div class="service-cnt-wrap">
+							<h3 class="service-title">Easy Theme Colors</h3>
+							<p>There are 4 color themes (blue, green, red, orange) and this one is red.</p>
+						</div> <!-- /.service-cnt-wrap -->
+					</div> <!-- /.service-box-wrap -->
+				</div> <!-- /.col-md-4 -->
 
-                        <!-- Card -->
-                    <!--     <div class="card">
-                            <div class="card-icon">
-                                <span class="far fa-clock"></span>
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Design and color choosing</h5>
-                            </div>
-                        </div>
-                         end of card -->
+				<div class="col-md-4 col-sm-4">
+					<div class="service-box-wrap">
+						<div class="service-icon-wrap">
+							<i class="fa fa-mobile-phone fa-2x"></i>
+						</div> <!-- /.service-icon-wrap -->
+						<div class="service-cnt-wrap">
+							<h3 class="service-title">Change Icons</h3>
+							<p>Check <a rel="nofollow" href="http://fontawesome.io/icons/" target="_blank">FontAwesome</a> for your suitable icons. Example: &lt;i class=&quot;fa fa-download&quot;&gt;&lt;/i&gt;</p>
+						</div> <!-- /.service-cnt-wrap -->
+					</div> <!-- /.service-box-wrap -->
+				</div> <!-- /.col-md-4 -->
 
-                        <!-- Card -->
-                   <!--      <div class="card">
-                            <div class="card-icon">
-                                <span class="far fa-comments"></span>
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Materials and delivery</h5>
-                            </div>
-                        </div>
-                       end of card -->
+				<div class="col-md-4 col-sm-4">
+					<div class="service-box-wrap">
+						<div class="service-icon-wrap">
+							<i class="fa fa-pencil-square-o fa-2x"></i>
+						</div> <!-- /.service-icon-wrap -->
+						<div class="service-cnt-wrap">
+							<h3 class="service-title">Pixel Perfect Design</h3>
+							<p>Based on a 12 column grid system, with every pixel snapped.</p>
+						</div> <!-- /.service-cnt-wrap -->
+					</div> <!-- /.service-box-wrap -->
+				</div> <!-- /.col-md-4 -->
 
-                        <!-- Card -->
-                     <!--    <div class="card">
-                            <div class="card-icon">
-                                <span class="fas fa-tools"></span>
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Execute the concept</h5>
-                            </div>
-                        </div>
-                         end of card -->
+			</div>
 
-                        <!-- Card -->
-                     <!--    <div class="card">
-                            <div class="card-icon">
-                                <span class="fas fa-chart-pie"></span>
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Creating great atmosphere</h5>
-                            </div>
-                        </div>
-                        end of card -->
+			<div class="row">
+				
+				<div class="col-md-4 col-sm-4">
+					<div class="service-box-wrap">
+						<div class="service-icon-wrap">
+							<i class="fa fa-code fa-2x"></i>
+						</div> <!-- /.service-icon-wrap -->
+						<div class="service-cnt-wrap">
+							<h3 class="service-title">Valid HTML5</h3>
+							<p>We offer validated html files and well commented code on our themes.</p>
+						</div> <!-- /.service-cnt-wrap -->
+					</div> <!-- /.service-box-wrap -->
+				</div> <!-- /.col-md-4 -->
 
-                        <!-- Card -->
-                       <!--  <div class="card">
-                            <div class="card-icon">
-                                <span class="far fa-chart-bar"></span>
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Evaluation and reporting</h5>
-                            </div>
-                        </div>
-                        end of card -->
+				<div class="col-md-4 col-sm-4">
+					<div class="service-box-wrap">
+						<div class="service-icon-wrap">
+							<i class="fa fa-eye-slash fa-2x"></i>
+						</div> <!-- /.service-icon-wrap -->
+						<div class="service-cnt-wrap">
+							<h3 class="service-title">Retina Ready</h3>
+							<p>Incredibly clean design provides you powerful way to grow your business.</p>
+						</div> <!-- /.service-cnt-wrap -->
+					</div> <!-- /.service-box-wrap -->
+				</div> <!-- /.col-md-4 -->
 
-                 <!--    </div>  end of container -->
-               <!--  </div>  end of col -->
-           <!--  </div>  end of row -->
-        <!-- </div>  end of container -->
-   <!--  </div>  end of cards-1 -->
-  <!--    end of services -->
+				<div class="col-md-4 col-sm-4">
+					<div class="service-box-wrap">
+						<div class="service-icon-wrap">
+							<i class="fa fa-suitcase fa-2x"></i>
+						</div> <!-- /.service-icon-wrap -->
+						<div class="service-cnt-wrap">
+							<h3 class="service-title">Special Thanks</h3>
+							<p>Credit goes to <a rel="nofollow" href="http://unsplash.com" target="_blank">Unsplash</a> for images used in this template.</p>
+						</div> <!-- /.service-cnt-wrap -->
+					</div> <!-- /.service-box-wrap -->
+				</div> <!-- /.col-md-4 -->
 
-    <!-- Invitation -->
-   <!--  <div class="basic-4 bg-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h4>Our team of highly skilled designers and interior construction workers can deliver above your level of expections</h4>
-                    <a class="btn-solid-lg" href="#testimonial">Get quote</a>
-                </div>  end of col -->
-       <!--      </div>  end of row -->
-     <!--    </div>  end of container -->
-  <!--   </div>  end of basic-4 -->
-    <!-- end of invitation -->
+			</div> <!-- /.row -->
+		</div> <!-- /.container -->
+	</section> <!-- /.services -->
 
+	<section class="dark-content portfolio">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="section-header">
+						<h2 class="section-title">Our Lovely Portfolio</h2>
+						<p class="section-desc">Everything you need to create a professional website.</p>
+					</div> <!-- /.section-header -->
+				</div> <!-- /.col-md-12 -->
+			</div> <!-- /.row -->
+		</div> <!-- /.container -->
+		
+		<div id="portfolio-carousel" class="portfolio-carousel portfolio-holder">
+			<div class="item">
+				<div class="thumb-post">
+					<div class="overlay">
+						<div class="overlay-inner">
+							<div class="portfolio-infos">
+								<span class="meta-category">Dashboard Template</span>
+								<h3 class="portfolio-title"><a href="project-slideshow.html">Visual Admin</a></h3>
+							</div>
+							<div class="portfolio-expand">
+								<a class="fancybox" href="images/includes/project1.jpg" title="Visual Admin">
+									<i class="fa fa-expand"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<img src="images/includes/project1.jpg" alt="Visual Admin">
+				</div>
+			</div> <!-- /.item -->
+			<div class="item">
+				<div class="thumb-post">
+					<div class="overlay">
+						<div class="overlay-inner">
+							<div class="portfolio-infos">
+								<span class="meta-category">Mobile Ready</span>
+								<h3 class="portfolio-title"><a href="project-slideshow.html">Compass Template</a></h3>
+							</div>
+							<div class="portfolio-expand">
+								<a class="fancybox" href="images/includes/project2.jpg" title="Compass Template">
+									<i class="fa fa-expand"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<img src="images/includes/project2.jpg" alt="Compass Template">
+				</div>
+			</div> <!-- /.item -->
+			<div class="item">
+				<div class="thumb-post">
+					<div class="overlay">
+						<div class="overlay-inner">
+							<div class="portfolio-infos">
+								<span class="meta-category">Responsive Design</span>
+								<h3 class="portfolio-title"><a href="project-slideshow.html">Awesome Theme</a></h3>
+							</div>
+							<div class="portfolio-expand">
+								<a class="fancybox" href="images/includes/project3.jpg" title="Awesome Theme">
+									<i class="fa fa-expand"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<img src="images/includes/project3.jpg" alt="Awesome Theme">
+				</div>
+			</div> <!-- /.item -->
+			<div class="item">
+				<div class="thumb-post">
+					<div class="overlay">
+						<div class="overlay-inner">
+							<div class="portfolio-infos">
+								<span class="meta-category">Portfolio</span>
+								<h3 class="portfolio-title"><a href="project-slideshow.html">Volton Personal Site</a></h3>
+							</div>
+							<div class="portfolio-expand">
+								<a class="fancybox" href="images/includes/project4.jpg" title="Volton Personal Site">
+									<i class="fa fa-expand"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<img src="images/includes/project4.jpg" alt="Volton Personal Site">
+				</div>
+			</div> <!-- /.item -->
+			<div class="item">
+				<div class="thumb-post">
+					<div class="overlay">
+						<div class="overlay-inner">
+							<div class="portfolio-infos">
+								<span class="meta-category">Green</span>
+								<h3 class="portfolio-title"><a href="project-slideshow.html">Rectangle Design</a></h3>
+							</div>
+							<div class="portfolio-expand">
+								<a class="fancybox" href="images/includes/project5.jpg" title="Rectangle Design">
+									<i class="fa fa-expand"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<img src="images/includes/project5.jpg" alt="Rectangle Design">
+				</div>
+			</div> <!-- /.item -->
+			<div class="item">
+				<div class="thumb-post">
+					<div class="overlay">
+						<div class="overlay-inner">
+							<div class="portfolio-infos">
+								<span class="meta-category">Portfolio</span>
+								<h3 class="portfolio-title"><a href="project-slideshow.html">Masonry Gallery</a></h3>
+							</div>
+							<div class="portfolio-expand">
+								<a class="fancybox" href="images/includes/project6.jpg" title="Masonry Gallery">
+									<i class="fa fa-expand"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<img src="images/includes/project6.jpg" alt="Masonry Gallery">
+				</div>
+			</div> <!-- /.item -->
+			<div class="item">
+				<div class="thumb-post">
+					<div class="overlay">
+						<div class="overlay-inner">
+							<div class="portfolio-infos">
+								<span class="meta-category">Branding / Identity</span>
+								<h3 class="portfolio-title"><a href="project-slideshow.html">Gloss Template</a></h3>
+							</div>
+							<div class="portfolio-expand">
+								<a class="fancybox" href="images/includes/project7.jpg" title="Gloss Template">
+									<i class="fa fa-expand"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<img src="images/includes/project7.jpg" alt="Gloss Template">
+				</div>
+			</div> <!-- /.item -->
+		</div> <!-- /#owl-demo -->
+	</section> <!-- /.portfolio-holder -->
 
-    <!-- Projects -->
-    <div id="projects" class="cards-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="h2-heading">NAVIGASI</h2>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-            <div class="row">
-                <div class="col-lg-12">
+	<section class="testimonials-widget">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="bxslider">
+						<div class="testimonial">
+							<div class="testimonial-content">
+								<span class="testimonial-author">Andy Colin - Architect</span>
+								<p class="testimonial-description">Thank you for all your good work in creating theme. They have a 'presence' which feels right.</p>
+							</div>
+						</div>
+						<div class="testimonial">
+							<div class="testimonial-content">
+								<span class="testimonial-author">Thomas Teddy - Design Writer</span>
+								<p class="testimonial-description">I love the logo. Particularly how the mark can stand on its own. Nice work! It feels tall and proud and powerful — and I love that. That's what I was after.</p>
+							</div>
+						</div>
+						<div class="testimonial">
+							<div class="testimonial-content">
+								<span class="testimonial-author">John Willy - Developer</span>
+								<p class="testimonial-description">You're pretty awesome to work with. Incredibly organized, easy to communicate with, responsive with next iterations, and beautiful work.</p>
+							</div>
+						</div>
+					</div> <!-- /.bxslider -->
+				</div> <!-- /.col-md-12 -->
+			</div> <!-- /.row -->
+		</div> <!-- /.container -->
+	</section> <!-- /.testimonials-widget -->
 
-                    <!-- Card -->
-                    <div class="card">
-                        <img class="img-fluid" src="images/project-2.jpg" alt="alternative">
-                            <div class="card-body" >
-                            <h5 align="center" class="card-title">source code</h5>
-                            <p align="center" class="card-text">halaman ini merupakan koleksi source code dari project yang telah dibuat<br><a class="btn-solid-reg" href="https://github.com/Satriabae/menghitung_BMI" >coming soon</a></p>
-                        </div>
-                    </div>
-                    <!-- end of card -->
+	<section class="light-content our-team">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="section-header">
+						<h2 class="section-title">Meet our happy staff</h2>
+						<p class="section-desc">Medigo is the automated way to keep track of what everyone is working on.</p>
+					</div> <!-- /.section-header -->
+				</div> <!-- /.col-md-12 -->
+			</div> <!-- /.row -->
+		</div> <!-- /.container -->
+		<div class="team-members">
+			<div class="container">
+				<div class="row">
 
-                  <!-- Card -->
-                  <div class="card">
-                    <img class="img-fluid" src="images/project-1.jpg" alt="alternative">
-                        <div class="card-body" >
-                        <h5 align="center" class="card-title">artikel</h5>
-                        <p align="center" class="card-text">halaman ini berisi software, artikel, tips dan trik <br><a class="btn-solid-reg" href="eror.html" >coming soon</a></p>
-                    </div>
-                </div>
-                <!-- end of card -->
+					<div class="col-md-4 col-sm-4">
+						<div class="team-member">
+							<div class="thumb-post">
+								<img src="images/includes/member1.jpg" alt="">
+								<span class="member-role">Marketing Manager</span>
+							</div>
+							<div class="member-content">
+								<h4 class="member-name">Amy Groovy</h4>
+								<p>Duis vitae consequat neque. Nulla pharetra eleifend nulla. </p>
+							</div>
+						</div> <!-- /.team-member -->
+					</div> <!-- /.col-md-4 -->
 
-                <!-- Card -->
-                <div class="card">
-                    <img class="img-fluid" src="images/project-3.jpg" alt="alternative">
-                        <div class="card-body" >
-                        <h5 align="center" class="card-title">tutorial</h5>
-                        <p align="center" class="card-text">halaman ini berisi kolekasi tutorial mengenai informatika dan teknologi  <br><a class="btn-solid-reg" href="eror.html" >coming soon</a></p>
-                    </div>
-                </div>
-                <!-- end of card -->
+					<div class="col-md-4 col-sm-4">
+						<div class="team-member">
+							<div class="thumb-post">
+								<img src="images/includes/member2.jpg" alt="">
+								<span class="member-role">Web Developer</span>
+							</div>
+							<div class="member-content">
+								<h4 class="member-name">Candy Sharp</h4>
+								<p>Duis vitae consequat neque. Nulla pharetra eleifend nulla. </p>
+							</div>
+						</div> <!-- /.team-member -->
+					</div> <!-- /.col-md-4 -->
 
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of cards-2 -->
-    <!-- end of projects -->
+					<div class="col-md-4 col-sm-4">
+						<div class="team-member">
+							<div class="thumb-post">
+								<img src="images/includes/member3.jpg" alt="">
+								<span class="member-role">Graphic Designer</span>
+							</div>
+							<div class="member-content">
+								<h4 class="member-name">Linda Master</h4>
+								<p>Duis vitae consequat neque. Nulla pharetra eleifend nulla. </p>
+							</div>
+						</div> <!-- /.team-member -->
+					</div> <!-- /.col-md-4 -->
 
+				</div> <!-- /.row -->
+			</div> <!-- /.container -->
+		</div> <!-- /.team-members -->
+	</section> <!-- /.our-team -->
+	
+	<section id="blogPosts" class="parallax">
+	    <div class="parallax-overlay">
+		    <div class="container">
+		        <div class="row">
+		        	<div class="col-md-12">
+		        		<div class="section-header">
+							<h2 class="section-title">Recent from our blog</h2>
+							<p class="section-desc">Everything you need to create a professional website.</p>
+						</div> <!-- /.section-header -->
+		        	</div> <!-- /.col-md-12 -->
+		        </div> <!-- /.row -->
+		        <div class="row latest-posts">
+		        	<div class="col-md-4 col-sm-6">
+		        		<div class="blog-post clearfix">
+		        			<div class="thumb-post">
+		        				<a href="blog-single.html"><img src="images/includes/blogthumb1.jpg" alt="" class="img-circle"></a>
+		        			</div>
+		        			<div class="blog-post-content">
+		        				<h4 class="post-title"><a href="blog-single.html">Getting Creative With the Google Maps API</a></h4>
+		        				<span class="meta-post-date">12 February 2084</span>
+		        			</div>
+		        		</div> <!-- /.blog-post -->
+		        	</div> <!-- /.col-md-4 -->
+		        	<div class="col-md-4 col-sm-6">
+		        		<div class="blog-post clearfix">
+		        			<div class="thumb-post">
+		        				<a href="blog-single.html"><img src="images/includes/blogthumb2.jpg" alt="" class="img-circle"></a>
+		        			</div>
+		        			<div class="blog-post-content">
+		        				<h4 class="post-title"><a href="blog-single.html">Design Deliverables – easily share project</a></h4>
+		        				<span class="meta-post-date">10 February 2084</span>
+		        			</div>
+		        		</div> <!-- /.blog-post -->
+		        	</div> <!-- /.col-md-4 -->
+		        	<div class="col-md-4 col-sm-6">
+		        		<div class="blog-post clearfix">
+		        			<div class="thumb-post">
+		        				<a href="blog-single.html"><img src="images/includes/blogthumb3.jpg" alt="" class="img-circle"></a>
+		        			</div>
+		        			<div class="blog-post-content">
+		        				<h4 class="post-title"><a href="blog-single.html">Using Templates to Get Your Clients Thinking</a></h4>
+		        				<span class="meta-post-date">8 February 2084</span>
+		        			</div>
+		        		</div> <!-- /.blog-post -->
+		        	</div> <!-- /.col-md-4 -->
+		        </div> <!-- /.row -->
+		    </div> <!-- /.container -->
+	    </div> <!-- /.parallax-overlay -->
+	</section> <!-- /#blogPosts -->
 
-  
+	<footer class="site-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<nav class="footer-nav clearfix">
+						<ul class="footer-menu">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="portfolio.html">Portfolio</a></li>
+							<li><a href="blog.html">Blog Posts</a></li>
+							<li><a href="archives.html">Shortcodes</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul> <!-- /.footer-menu -->
+					</nav> <!-- /.footer-nav -->
+				</div> <!-- /.col-md-12 -->
+			</div> <!-- /.row -->
+			<div class="row">
+				<div class="col-md-12">
+					<p class="copyright-text">Copyright &copy; 2084 Company Name 
+                    | Design: templatemo</p>
+				</div> <!-- /.col-md-12 -->
+			</div> <!-- /.row -->
+		</div> <!-- /.container -->
+	</footer> <!-- /.site-footer -->
 
-    <!-- Contact -->
-    <div id="contact" class="form-1">
-        <img class="decoration-star" src="images/decoration-star.svg" alt="alternative">
-        <img class="decoration-star-2" src="images/decoration-star.svg" alt="alternative">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="image-container">
-                        <div class="text-center">
-        <h4>CONTACT IN<span>FO</span></h4>
-        <ul >
-          <li><i class="fa fa-map-marker"></i>
-            <h6><strong>alamat:</strong> metro car wash , Yogyakarta </h6>
-          </li>
-          <li><i class="fa fa-envelope"></i>
-            <h6><strong>Email:</strong> <a href="mailto:satriabae43@gmail.com">satriabae43@gmail.com</a></h6>
-          </li>
-          <li><i class="fa fa-phone"></i>
-            <h6><strong>ponsel:</strong> +6282278583058 </h6>
-          </li>
-          <li><i class="fa fa-wechat"></i>
-            <h6><strong>Website:</strong> <a href="#">www.satriam.github.io</a> </h6>
-          </li>
-        </ul>
-      </div>
-                    </div> <!-- end of image-container -->
-                </div> <!-- end of col -->
-                <div class="col-lg-6">
-                    <div class="text-container">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.5621987704167!2d110.35299661538201!3d-7.73002977875257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a598b06440a8f%3A0xe514b0917f00ca9e!2sMETRO%20CARWASH!5e0!3m2!1sid!2sid!4v1633816428687!5m2!1sid!2sid" 
-                        width="700" height="400"  style="border:1;" allowfullscreen="" loading="lazy" ></iframe>
-                        <!-- end of contact form -->
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of form-1 -->
-    <!-- end of contact -->
+	<!-- Scripts -->
+	<script src="js/min/plugins.min.js"></script>
+	<script src="js/min/medigo-custom.min.js"></script>
 
-
-    <!-- Footer -->
-    <div class="footer bg-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="footer-col first">
-                        <h6>tentang websitee</h6>
-                        <p class="p-small">website ini dibuat untuk pembelajaran dan arsip dari owner</p>
-                    </div> <!-- end of footer-col -->
-                    <div class="footer-col second">
-                        <h6>Link</h6>
-                        <ul class="list-unstyled li-space-lg p-small">
-                            <li>Penting: <a href="terms.html">Terms & Conditions</a>, <a href="privacy.html">Privacy Policy</a></li>
-                        </ul>
-                    </div> <!-- end of footer-col -->
-                    <div class="footer-col third">
-                        <span class="fa-stack">
-                            <a href="https://www.facebook.com/satrianetwork " target="_blank">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-facebook-f fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="https://www.linkedin.com/in/satria-mulya-89b12412b/"target="_blank">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-linkedin fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="https://www.youtube.com/satriamulya"target="_blank">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-youtube fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="https://www.instagram.com/satriamulyaaa" target="_blank">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-instagram fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <p class="p-small">kritik dan saran kirim ke  <a href="mailto:satriabae43@gmail.com"><strong>satriabae43@gmail.com</strong></a></p>
-                    </div> <!-- end of footer-col -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of footer -->  
-    <!-- end of footer -->
-
-
-    <!-- Copyright -->
-    <div class="copyright bg-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <p class="p-small">Copyright © <a href="https://satriam.github.io">satria</a></p>
-                </div> <!-- end of col -->
-            </div> <!-- enf of row -->
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <p class="p-small">Distributed By <a href="https://satriam.github.io">satt prod</a></p>
-                </div> <!-- end of col -->
-            </div> <!-- enf of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of copyright --> 
-    <!-- end of copyright -->
-    
-
-    <!-- Back To Top Button -->
-    <button onclick="topFunction()" id="myBtn">
-        <img src="images/up-arrow.png" alt="alternative">
-    </button>
-    <!-- end of back to top button -->
-    	
-    <!-- Scripts -->
-    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
-    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
-    <script src="js/purecounter.min.js"></script> <!-- Purecounter counter for statistics numbers -->
-    <script src="js/scripts.js"></script> <!-- Custom scripts -->
 </body>
 </html>
