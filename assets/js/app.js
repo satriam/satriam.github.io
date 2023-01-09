@@ -8,6 +8,7 @@ document.body.appendChild(script);
 
 // Header
 {/* <li class="nav-item nav-item-hover"><a class="nav-link" href="https://hashnode.com/" target="_blank">Blogs</a></li> */}
+{/* <li class="nav-item nav-item-hover"><a class="nav-link" href="research.html">Research</a></li>} */}
 let header = $(`
 <nav class="navbar navbar-expand-lg fixed-top dark-theme" id="navbar">
 <a class="navbar-brand" href="index.html">Satria </a>
